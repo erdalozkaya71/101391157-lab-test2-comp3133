@@ -1,0 +1,19 @@
+<h1>Space X Mission Launch List</h1>
+
+
+<div *ngFor="let mission of missions">  
+<div class = "list" (click)="showDetails(mission.flight_number)">
+<mat-card class="example-card">
+    <div></div>
+    <mat-card-title-group>
+      <mat-card-title id="title">{{mission.mission_name}}</mat-card-title>
+      <mat-card-subtitle>{{mission.launch_year}}</mat-card-subtitle>
+      <img mat-card-sm-image [src]= "mission.links.mission_patch_small">
+    </mat-card-title-group>
+    <mat-card-content id="details">
+      {{mission.details}}
+    </mat-card-content>
+  </mat-card>
+</div> 
+</div>
+

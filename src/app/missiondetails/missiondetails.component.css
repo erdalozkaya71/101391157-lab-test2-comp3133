@@ -1,0 +1,22 @@
+.details{
+    background-color: rgb(183, 239, 248);
+    border-radius: 50px;
+}
+
+.content{
+    padding: 15px;
+}
+
+.side{
+    float: right;
+    
+}
+.img{
+    padding: 40px;
+}
+span{
+    padding-left: 10px;
+}
+h3{
+    color: darkred;
+}
