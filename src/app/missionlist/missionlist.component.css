@@ -1,14 +1,17 @@
 .list {
-    background-color: palegreen;
-    margin: 5px;
-    border-radius: 25px;
+  background-color: palegreen;
+  margin: 5px;
+  border-radius: 25px;
 }
 
-#title{
-    font-size: 30px;  
+#title {
+  font-size: 30px;
 }
 
-#details{
-    font-size: 20px;
+#details {
+  font-size: 20px;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
